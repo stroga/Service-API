@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Password",
+    "database": "services_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "test",
+    "database": "database_production",
+    "host": "146.185.163.215",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}

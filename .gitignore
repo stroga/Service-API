@@ -1,0 +1,7 @@
+/dist
+/logs
+/npm-debug.log
+/node_modules
+/src/routes/index.html
+.DS_Store
+.idea

@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb-base",
+  "env": {"node": true, "jasmine": true, "browser": true},
+  "rules": {
+    "consistent-return": [0], // fix whenver
+    "no-unused-vars": [0], // fix whenever
+
+    "no-mixed-operators": [0],
+    "import/no-dynamic-require": [0],
+    "no-plusplus": [0],
+    "no-use-before-define": [0],
+    "no-param-reassign": [0],
+
+    // added`
+    "object-curly-spacing": ["error", "always"],
+    "arrow-parens": ["error", "as-needed"],
+    "space-before-function-paren": ["error", "always"],
+    "space-in-parens": ["error", "never", { "exceptions": ["empty"] }],
+    "no-shadow": [0],
+    "no-console": [0],
+
+  },
+  "globals": {
+    "angular": true,
+    "inject": true,
+    "_": true // TODO: fix whenever
+  },
+  "parser": "babel-eslint"
+}
